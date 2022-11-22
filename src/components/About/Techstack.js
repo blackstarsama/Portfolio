@@ -4,6 +4,7 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
+  DiJava,
   DiNodejs,
   DiMongodb,
   DiPython,
@@ -20,6 +21,9 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
