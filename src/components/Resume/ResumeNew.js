@@ -9,7 +9,11 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
+<<<<<<< HEAD
   "https://raw.githubusercontent.com/blackstarsama/Portfolio/52a84417e686cea06d3e6415c34267986aa94331/src/Assets/Magassouba%20Fod%C3%A9%20-%20DEV%20WEB.pdf";
+=======
+  "https://raw.githubusercontent.com/blackstarsama/Portfolio/52a84417e686cea06d3e6415c34267986aa94331/src/Assets/Magassouba%20Fod%C3%A9%20-%20DEV%20WEB.pdff";
+>>>>>>> 5df0ad76c5d18150795f6c95a1983624a1861301
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
