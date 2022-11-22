@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/blackstarsama/blackstarsama/main/Magassouba%20Fodé%20-%20DEV%20WEB.pdf";
+  "https://raw.githubusercontent.com/blackstarsama/Portfolio/52a84417e686cea06d3e6415c34267986aa94331/src/Assets/Magassouba%20Fod%C3%A9%20-%20DEV%20WEB.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
