@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/Magassouba Fodé - CDI  Dev Web - Novembre.pdf";
+import pdf from "../../Assets/Magassouba Fodé - DEV WEB.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/blackstarsama/blackstarsama/main/Magassouba%20Fodé%20-%20CDI%20%20Dev%20Web%20-%20Novembre.pdf";
+  "https://raw.githubusercontent.com/blackstarsama/blackstarsama/main/Magassouba%20Fodé%20-%20DEV%20WEB.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

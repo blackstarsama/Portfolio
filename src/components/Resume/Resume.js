@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Magassouba Fodé - CDI  Dev Web - Novembre.pdf";
+import pdf from "../../Assets/Magassouba Fodé - DEV WEB.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
