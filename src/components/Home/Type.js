@@ -8,8 +8,8 @@ function Type() {
         strings: [
           "Developer Web Front",
           "Developer Web Back",
+          "Developer Web Integrator",
           "Deep Learning Engineer",
-          "Developer Integrator Web",
         ],
         autoStart: true,
         loop: true,
