@@ -40,7 +40,7 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with{" "}
               <b className="purple">
-                Java, Symfony, Laravel, CodeIgniter, Wordpress, Node.js
+                Java, Laravel, Symfony, CodeIgniter, Wordpress, Node.js
               </b>{" "}
               and
               <i>
