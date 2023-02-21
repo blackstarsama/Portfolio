@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I use universal programming languages like
               <i>
-                <b className="purple"> Php, C#, Javascript and Python. </b>
+                <b className="purple"> Php, Javascript, C# and Python. </b>
               </i>
               <br />
               <br />
@@ -40,7 +40,7 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with{" "}
               <b className="purple">
-                Java, Laravel, Symfony, CodeIgniter, Wordpress, Node.js
+                Java, NodeJs, Laravel, Symfony, CodeIgniter, Wordpress
               </b>{" "}
               and
               <i>
