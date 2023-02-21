@@ -40,7 +40,7 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with{" "}
               <b className="purple">
-                Symfony, Laravel, CodeIgniter, Wordpress, Node.js
+                Java, Symfony, Laravel, CodeIgniter, Wordpress, Node.js
               </b>{" "}
               and
               <i>
@@ -90,7 +90,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/bangalyfodemagassouba/"
+                  href="https://www.linkedin.com/in/fodemagassouba/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
