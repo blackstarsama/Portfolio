@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/Magassouba Fodé - DEV WEB.pdf";
+import pdf from "../../Assets/Bangaly Fodé MAGASSOUBA - SEPTEMBRE 2024.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/blackstarsama/Portfolio/52a84417e686cea06d3e6415c34267986aa94331/sc/Assets/Magassouba%20Fod%C3%A9%20-%20DEV%20WEB.pdff";
+  "https://raw.githubusercontent.com/blaé&ckstarsama/Portfolio/52a84417e686cea06d3e6415c34267986aa94331/sc/Assets/Magassouba%20Fod%C3%A9%20-%20DEV%20WEB.pdff";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -30,7 +30,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={resumeLink}>
+          <Document file={pdf}>
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
