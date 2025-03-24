@@ -2,7 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
+<<<<<<< Updated upstream
 import pdf from "../../Assets/Magassouba Fodé - DEV WEB.pdf";
+=======
+import pdf from "../../Assets/Fodé Magassouba - Mars 2025.pdf";
+>>>>>>> Stashed changes
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
