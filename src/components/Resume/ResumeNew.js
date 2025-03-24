@@ -13,7 +13,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://nbviewer.org/github/blackstarsama/Portfolio/blob/462df0975442075f6f224205a3629893377a1675/src/Assets/Magassouba%20Fod%C3%A9%20-%20DEV%20WEB.pdf";
+  "https://nbviewer.org/github/blackstarsama/Portfolio/blob/93c33c4500df77d8ed9a89352268e4ce9515b0b9/src/Assets/Fod%C3%A9%20Magassouba%20-%20Mars%202025.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
