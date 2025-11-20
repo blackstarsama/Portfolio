@@ -5,6 +5,7 @@ import Particle from "../Particle";
 
 import cover from "../../Assets/Projects/projet.jpg";
 import cover2 from "../../Assets/Projects/projet2.png";
+import cover3 from "../../Assets/Projects/projet3.png";
 
 function Projects() {
   return (
@@ -15,16 +16,16 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently. (In progress...)
+          Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cover}
+              imgPath={cover3}
               isBlog={false}
-              title="Sama ecommerce website"
-              description="Une plateforme d'e-commerce moderne et élégante construite avec React. 
-              Découvrez une expérience d'achat fluide avec une interface intuitive et réactive."
+              title="Ecommerce website"
+              description="A modern and elegant e-commerce platform built with React. 
+              Experience seamless shopping with an intuitive and responsive interface."
               link="https://github.com/blackstarsama/Sama-Ecommerce"
             />
           </Col>
@@ -34,8 +35,9 @@ function Projects() {
               imgPath={cover2}
               isBlog={false}
               title="Admin Dashboard"
-              description="Un tableau de bord moderne, fluide et responsive développé avec React.js, inspiré des interfaces professionnelles d’administration. 
-              Il intègre un mode sombre, des graphiques interactifs, et une gestion dynamique des données (ex : commandes récentes)."
+              description="A modern, fluid, and responsive dashboard developed with React.js, 
+              inspired by professional administration interfaces. 
+              It includes a dark mode, interactive charts, and dynamic data management (e.g., recent orders)."
               link="https://github.com/blackstarsama/admin-dash-app"
             />
           </Col>
@@ -45,8 +47,8 @@ function Projects() {
               imgPath={cover}
               isBlog={false}
               title="Project Name"
-              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-              link="#"
+              description="You can find other projects that are currently being developed via my Github."
+              link="https://github.com/blackstarsama"
             />
           </Col>
         </Row>
