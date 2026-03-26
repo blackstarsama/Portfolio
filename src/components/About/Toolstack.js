@@ -11,29 +11,28 @@ import {
 } from "react-icons/si";
 
 function Toolstack() {
+  const tools = [
+    { name: "VS Code", icon: <SiVisualstudiocode /> },
+    { name: "WordPress", icon: <SiWordpress /> },
+    { name: "Symfony", icon: <SiSymfony /> },
+    { name: "CodeIgniter", icon: <SiCodeigniter /> },
+    { name: "Photoshop", icon: <SiAdobephotoshop /> },
+    { name: "Google Analytics", icon: <SiGoogleanalytics /> },
+    { name: "AWS", icon: <SiAmazonaws /> },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiWordpress />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSymfony />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCodeigniter />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAdobephotoshop />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGoogleanalytics />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonaws />
-      </Col>
+      {tools.map((tool) => (
+        <Col xs={4} md={2} className="tech-icons tech-flip-card" key={tool.name}>
+          <div className="tech-flip-card-inner">
+            <div className="tech-flip-face tech-flip-front">{tool.icon}</div>
+            <div className="tech-flip-face tech-flip-back">
+              <span>{tool.name}</span>
+            </div>
+          </div>
+        </Col>
+      ))}
     </Row>
   );
 }

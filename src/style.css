@@ -561,9 +561,61 @@ html {
   transition: all 0.4s ease 0s !important;
 }
 
+.tech-flip-card {
+  background: transparent !important;
+  perspective: 1000px;
+  min-height: 140px;
+  cursor: pointer;
+}
+
+.tech-flip-card-inner {
+  position: relative;
+  width: 100%;
+  min-height: 118px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+
+.tech-flip-card:hover .tech-flip-card-inner,
+.tech-flip-card:focus-within .tech-flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.tech-flip-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.tech-flip-front {
+  color: inherit;
+}
+
+.tech-flip-back {
+  transform: rotateY(180deg);
+  font-size: 0.35em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 12px;
+  color: #ffffff;
+}
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
+  }
+
+  .tech-flip-card {
+    min-height: 120px;
+  }
+
+  .tech-flip-card-inner {
+    min-height: 98px;
   }
 }
 
