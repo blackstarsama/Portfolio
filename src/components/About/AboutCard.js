@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am{" "}
             <span className="purple">Bangaly Fodé Magassouba </span>
             from <span className="purple"> Paris, France.</span>
-            <br />I am a freshly graduated junior web developer.
+            <br />I am a fullstack developer with over 3 years of experience.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
